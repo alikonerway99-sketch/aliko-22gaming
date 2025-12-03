@@ -1,0 +1,40 @@
+@echo off
+echo Creating index.html...
+echo ^<!DOCTYPE html^> > index.html
+echo ^<html lang="ar" dir="rtl"^> >> index.html
+echo ^<head^> >> index.html
+echo     ^<meta charset="UTF-8"^> >> index.html
+echo     ^<meta name="viewport" content="width=device-width, initial-scale=1.0"^> >> index.html
+echo     ^<title^>Aliko-22 Gaming | عالم الألعاب الرائد^</title^> >> index.html
+echo     ^<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"^> >> index.html
+echo ^<style^> >> index.html
+echo * { >> index.html
+echo     margin: 0; >> index.html
+echo     padding: 0; >> index.html
+echo     box-sizing: border-box; >> index.html
+echo     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; >> index.html
+echo } >> index.html
+echo :root { >> index.html
+echo     --primary-color: #0a0e17; >> index.html
+echo     --secondary-color: #00a8ff; >> index.html
+echo     --accent-color: #ff375f; >> index.html
+echo     --light-color: #f5f6fa; >> index.html
+echo     --dark-color: #1e272e; >> index.html
+echo     --gray-color: #808e9b; >> index.html
+echo } >> index.html
+echo body { >> index.html
+echo     background-color: var(--primary-color); >> index.html
+echo     color: var(--light-color); >> index.html
+echo     line-height: 1.6; >> index.html
+echo     overflow-x: hidden; >> index.html
+echo } >> index.html
+echo ^</style^> >> index.html
+echo ^</head^> >> index.html
+echo ^<body^> >> index.html
+echo     ^<h1^>موقع Aliko-22 Gaming^</h1^> >> index.html
+echo     ^<p^>تم إنشاء الملف بنجاح! قم بنسخ باقي الكود إليه.^</p^> >> index.html
+echo ^</body^> >> index.html
+echo ^</html^> >> index.html
+echo ✅ تم إنشاء index.html بنجاح!
+echo انقر نقراً مزدوجاً على الملف لفتحه في المتصفح.
+pause
